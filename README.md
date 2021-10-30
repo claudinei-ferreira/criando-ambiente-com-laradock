@@ -91,7 +91,9 @@ Se tudo estiver correto você verá uma página com as configurações do seu PH
 
 
 
-
+## Créditos
+Para criar este guia usei referências da web e principalmente do site [EspecializaTi](https://academy.especializati.com.br/). <br>
+As informações apresentadas neste guia foram consumidas neste [link](https://academy.especializati.com.br/aula/criando-ambiente-com-docker). 
 
 
     
