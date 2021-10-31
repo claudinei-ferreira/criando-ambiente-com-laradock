@@ -65,6 +65,12 @@ docker ps
 
 ## Passo 04: Instalar uma aplicação laravel
 
+Acessar o container workspace. (D:\docker\laradock)
+```bash
+docker compose exec workspace bash
+```
+Ao executar o comando acima você terá uma saída da tela: /var/www#
+
 
 
 ## Passo 05: Configurar os caminhos dos sites / projetos
