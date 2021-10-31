@@ -93,7 +93,14 @@ Para testar este caminho faça o seguinte:
  phpinfo();
  ```
 Agora abra seu navegador e acesse: http://localhost/ <br>
-Se tudo estiver correto você verá uma página com as configurações do seu PHP
+Se tudo estiver correto você verá uma página com as configurações do seu PHP <br>
+
+Ao criar novos hosts virtuais reinicie os containers com o comando a seguir:
+```bash
+docker-compose restart
+```
+
+
 
 
 ## Créditos
