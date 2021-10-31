@@ -67,7 +67,7 @@ docker ps
 
 Acessar o container workspace. (D:\docker\laradock)
 ```bash
-docker compose exec workspace bash
+docker-compose exec workspace bash
 ```
 Ao executar o comando acima você terá uma saída da tela: /var/www#
 
@@ -94,7 +94,6 @@ Para testar este caminho faça o seguinte:
  ```
 Agora abra seu navegador e acesse: http://localhost/ <br>
 Se tudo estiver correto você verá uma página com as configurações do seu PHP
-
 
 
 ## Créditos
