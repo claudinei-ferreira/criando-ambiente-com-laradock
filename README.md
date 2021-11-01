@@ -76,7 +76,7 @@ Ao executar o comando acima você terá uma saída da tela: /var/www#
 
 Obs: Pode ser necessário aplicar permissões na pasta storage
 ```bash
-chmod -R 755 /var/www/projects/theread/
+chmod -R 777 /var/www/projects/theread/
 ```
 
 
