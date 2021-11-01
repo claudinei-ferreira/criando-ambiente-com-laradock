@@ -71,8 +71,10 @@ docker-compose exec workspace bash
 ```
 Ao executar o comando acima você terá uma saída da tela: /var/www#
 
-
-
+Para instalar o laravel execute este comando:
+```bash
+composer create-project --prefer-dist laravel/laravel nome-app-laravel
+```
 
 Obs: Pode ser necessário aplicar permissões na pasta storage
 ```bash
