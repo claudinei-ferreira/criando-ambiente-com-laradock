@@ -73,6 +73,14 @@ Ao executar o comando acima você terá uma saída da tela: /var/www#
 
 
 
+
+Obs: Pode ser necessário aplicar permissões na pasta storage
+```bash
+chmod -R 755 /var/www/projects/theread/
+```
+
+
+
 ## Passo 05: Configurar os caminhos dos sites / projetos
 As configurações de hosts do projetos criados ficam no diretório a seguir:
 D:\docker\laradock\nginx\sites\default.conf <br>
