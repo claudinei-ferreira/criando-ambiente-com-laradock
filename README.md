@@ -78,7 +78,7 @@ composer create-project --prefer-dist laravel/laravel nome-app-laravel
 
 Obs: Pode ser necessário aplicar permissões na pasta storage
 ```bash
-chmod -R 777 /var/www/projects/theread/
+chmod -R 777 /var/www/projects/nome-app-laravel/storage
 ```
 
 
