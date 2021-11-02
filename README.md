@@ -13,7 +13,7 @@ Confira neste guia como criar um ambiente de desenvolvimento Laravel, utilizando
 
 ## Passo 01: Clonar o Repositório do Laradoc
 Clone o repositório do Laradock em qualquer lugar de sua máquina. <br>
-Particularmente eu prefiro criar um pasta com a seguinte estrutura:<br> 
+Particularmente eu prefiro criar uma pasta com a seguinte estrutura:<br> 
  - D:/docker/laradock
  - D:/docker/projects/laravel-app1
  - D:/docker/projects/laravel-app2
