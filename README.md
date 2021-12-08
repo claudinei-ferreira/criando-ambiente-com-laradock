@@ -10,6 +10,8 @@ Confira neste guia como criar um ambiente de desenvolvimento Laravel, utilizando
  - [Cmder](https://cmder.net/)
  - [Visual Studio Code](https://code.visualstudio.com/)
 
+<p> Lembre-se de instalar as ferramentas acima, principalmente o GIT e o Docker</p>
+
 
 ## Passo 01: Clonar o Repositório do Laradoc
 Clone o repositório do Laradock em qualquer lugar de sua máquina. <br>
@@ -47,6 +49,21 @@ Abra o arquivo .env e certifique-se de que a variável APP_CODE_PATH_HOST, no in
 APP_CODE_PATH_HOST=../
 ```
 
+Neste arquivo .env, verifique a versão do MYSL na chave "MYSQL_VERSION", provavelmente ela estará marcada como "latest". <br>
+Deixe ela marcada para usar o mysql 5.7, sua configuração deverá ficar assim:
+```bash
+### MYSQL #################################################
+MYSQL_VERSION=latest
+MYSQL_DATABASE=default
+MYSQL_USER=default
+MYSQL_PASSWORD=secret
+MYSQL_PORT=3306
+MYSQL_ROOT_PASSWORD=root
+MYSQL_ENTRYPOINT_INITDB=./mysql/docker-entrypoint-initdb.d
+```
+
+
+
 ## Passo 03: Subir os containers do Laradock
 Com o comando abaixo iremos subir os seguintes containers: nginx mysql e phpmyadmin. <br>
 Atenção!  Para rodar este comando você precisa estar dentro da pasta "laradock", aquela que você clonou no inicio deste tutorial. <br>
@@ -58,7 +75,7 @@ docker-compose up -d nginx mysql phpmyadmin
 
 Ao rodar este comando a primeira vez, pode ser que demore um pouco para baixar todos os pacotes.
 
-Para conferir se todos os container este rodando com sucesso, digite o comando a seguir:
+Para conferir se todos os container estão rodando com sucesso, digite o comando a seguir:
 ```bash
 docker ps
 ```
