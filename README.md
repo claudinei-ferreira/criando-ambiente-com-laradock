@@ -97,6 +97,17 @@ Obs: Pode ser necessário aplicar permissões na pasta storage
 ```bash
 chmod -R 775 /var/www/projects/nome-app-laravel/storage
 ```
+PERMISSÕES DE PASTA
+```bash
+chmod 755 /var/www/projects/nome-app-laravel
+chown -R www-data:www-data /var/www/projects/nome-app-laravel
+```
+
+DENTRO DA PASTA /var/www/projects/nome-app-laravel
+```bash
+find * -type d -exec chmod 755 {} \;
+find * -type f -exec chmod 644 {} \;
+```
 
 
 
